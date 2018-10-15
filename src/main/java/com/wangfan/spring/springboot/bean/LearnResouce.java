@@ -10,13 +10,16 @@ import lombok.Data;
  * @Url:
  * @Params:
  * @Return:
- * @Date:2018/10/14
+ * @Date:2018/10/15
  * @Other:
  */
-
 @Data
-public class IndexVo
+@AllArgsConstructor
+public class LearnResouce
 {
-    private String name;
+    private String author;
 
+    private String title;
+
+    private String url;
 }
