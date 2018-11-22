@@ -1,7 +1,6 @@
 server:
   port: 8081
-  servlet:
-    path: /*
+  servlet-path: /*
   context-path: /springboot
 spring:
   mvc:

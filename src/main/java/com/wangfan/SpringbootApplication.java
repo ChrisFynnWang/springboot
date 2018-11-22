@@ -19,8 +19,7 @@ public class SpringbootApplication
     }
 
     @Bean
-    public MappingJackson2HttpMessageConverter mappingJacksonHttpMessageConverter()
-    {
+    public MappingJackson2HttpMessageConverter mappingJacksonHttpMessageConverter() {
         final MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
         JsonObjectMapper mapper = new JsonObjectMapper();
         converter.setObjectMapper(mapper);
